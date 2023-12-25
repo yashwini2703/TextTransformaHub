@@ -1,0 +1,22 @@
+npx create-react-app my-app
+
+rfc- for new component
+
+for Routhing--> npm install react-router-dom
+in App.js-->import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+   
+       -->  <Router>    <div>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/code" component={Code} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/presence" component={info} />
+          </div></Router>
+
+        --> const MainMenu = () => {
+                <div>
+                <Link to="/">
+                    <button>home</button>
+                </Link>   
+
+        -->         
